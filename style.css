@@ -472,8 +472,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin: 0px;
 }
 
-.mt-3 {
-  margin-top: 0.75rem;
+.block {
+  display: block;
 }
 
 .flex {
@@ -503,6 +503,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-optimum-blue {
   --tw-text-opacity: 1;
   color: rgb(0 158 252 / var(--tw-text-opacity));
+}
+
+.p {
+  margin-top: 10px;
 }
 
 .hover\:text-optimum-darkblue:hover {
