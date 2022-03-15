@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.p{
- margin-top:10px;
+.p {
+  margin-top: 10px;
 }
