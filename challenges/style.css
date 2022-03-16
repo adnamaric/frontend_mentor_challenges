@@ -2,15 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-<<<<<<< HEAD
-.p {
-  margin-top: 10px;
-=======
-.attribution {
-  opacity: 0.3;
-}
-.attribution:hover {
-  opacity: 1;
-  margin-bottom: 60px;
->>>>>>> order_summary_component
-}
+
