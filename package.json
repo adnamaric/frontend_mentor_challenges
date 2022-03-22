@@ -15,12 +15,9 @@
     "prettier": "^2.5.1",
     "prettier-plugin-tailwindcss": "^0.1.7",
     "simple-autoreload-server": "^0.2.10",
-<<<<<<< HEAD
-    "tailwindcss": "^3.0.22"
-=======
     "tailwindcss": "^3.0.23",
     "wdio-chromedriver-service": "^7.2.8"
->>>>>>> e7c07079e3583dd3b8a6d54746b815d2fb31c43f
+
   },
   "scripts": {
     "build": "node scripts/build.js",
@@ -30,8 +27,7 @@
     "simple-autoreload-server": "npx autoreload-server -d ./public/ -p 3000 -b",
     "test": "npm-run-all check-formatting build wdio-test",
     "watch": "npm run build -- --watch",
-    "wdio-test": "npx wdio run wdio.conf.js",
-    "format": "prettier --write .",
-    "format-check": "prettier --check ."
+    "wdio-test": "npx wdio run wdio.conf.js"
+    
   }
 }
