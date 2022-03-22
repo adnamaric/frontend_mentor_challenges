@@ -17,7 +17,6 @@
     "simple-autoreload-server": "^0.2.10",
     "tailwindcss": "^3.0.23",
     "wdio-chromedriver-service": "^7.2.8"
-
   },
   "scripts": {
     "build": "node scripts/build.js",
@@ -28,6 +27,5 @@
     "test": "npm-run-all check-formatting build wdio-test",
     "watch": "npm run build -- --watch",
     "wdio-test": "npx wdio run wdio.conf.js"
-    
   }
 }
