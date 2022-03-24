@@ -1,7 +1,8 @@
-/*
-! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
-*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+<<<<<<< HEAD
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
@@ -610,3 +611,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-text-opacity: 1;
   color: rgb(3 137 225 / var(--tw-text-opacity));
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+>>>>>>> qr_code_component
